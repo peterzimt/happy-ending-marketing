@@ -1,1 +1,22 @@
 // Your footer style
+#footer {
+	background-color: $gray-darker;
+	color:$gray-lighter;
+	padding: 50px 50px;
+	text-align: right;
+	p {
+	margin-top: 17px;
+	}
+	ul {
+	margin-top: 10px;
+	}
+	a {
+	color: $yellow;
+	font-size: 30px;
+	transition: color 0.5s ease;
+	&:hover {
+	color: $green;
+	}
+	}
+}
+

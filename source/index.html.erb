@@ -1,10 +1,218 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Welcome to Happy Ending Marketing
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+
+
+<div id="banner">
+  <h1>Happy Ending Marketing</h1>
+  <p>We create your own website, and make you visible</p>
+  <a href="#" class="btn btn-primary btn-lg btn-rounded">Get in touch</a>
+
+</div>
+
+
+<div id="usp" class="bg-blue text-center">
+
+
+  <div class="container"> 
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+         <%= image_tag "responsive.png" %>
+          <h2>We Create your website</h2>
+          <p>From scratch, you just need to get a good idea</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+          <%= image_tag"share.png" %>
+
+          <h2>We make it seen</h2>
+          <p>So your audience can see what you propose</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+          <%= image_tag"money.png" %>
+          <h2>Realise your business objective</h2>
+          <p>Customer get in touch with you</p>
+
+      </div>
+
+    </div>
+
+
+  </div>
+      
+   
+
+
+
+</div>
+
+
+<div id="newsletter" class="text-center">
+  
+  <h2>Let's keep in touch</h2>
+  <p>We are finalising our offer, register here we'll keep you posted on when we are ready to rumble your marketing</p>
+  <form action="" class="form-inline">
+    <input type="email" class="form-control" placeholder='your email'>
+    <input type="submit" value="Suscribe" class="btn btn-success">
+  </form>
+</div>
+
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+var myLatlng = new google.maps.LatLng(51.5927243,0.0264014);
+
+var myOptions = {
+  zoom: 8,
+  center: myLatlng,
+  scrollwheel: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP,
+  styles: [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#333739"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2ecc71"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "stylers": [
+            {
+                "color": "#2ecc71"
+            },
+            {
+                "lightness": -7
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2ecc71"
+            },
+            {
+                "lightness": -28
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2ecc71"
+            },
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": -15
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2ecc71"
+            },
+            {
+                "lightness": -18
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2ecc71"
+            },
+            {
+                "lightness": -34
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#333739"
+            },
+            {
+                "weight": 0.8
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "stylers": [
+            {
+                "color": "#2ecc71"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#333739"
+            },
+            {
+                "weight": 0.3
+            },
+            {
+                "lightness": 10
+            }
+        ]
+    }
+] 
+};
+
+var map = new google.maps.Map(document.getElementById('map'), myOptions);
+var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  title: "You are here!"
+});
+</script>
+

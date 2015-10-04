@@ -1,0 +1,31 @@
+// Ajustement specifique pour la page. Fine-tuning here
+
+#banner {
+  background-image: image-url("banner.jpeg");
+  padding: 150px 50px;
+  color:$yellow;
+  h1 {
+  font-size:90px;
+  letter-spacing: -13px;
+  Font-family:$Interstate-R;
+}
+}
+
+#usp {
+	h2{
+  Font-family:$Interstate-R;
+  font-size:40px;
+  }
+}
+
+.bg-blue {
+  background-color: $yellow;
+  padding: 150px 50px;
+  h2{
+  Font-family:$Interstate-R;
+  }
+}
+
+#newsletter {
+  padding: 100px 0px;
+} 

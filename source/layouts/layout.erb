@@ -45,6 +45,13 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
+              <% link_to "/team.html" do %>
+                <i class="fa fa-heart-o"></i> Team
+              <% end %>
+            </li>
+
+
+            <li>
               <% link_to "/pricing.html" do %>
                 <i class="fa fa-dollar"></i> Pricing
               <% end %>
@@ -68,5 +75,18 @@
     </nav>
 
     <%= yield %>
+
+    <div id="footer">
+  
+  <ul class="list-inline">
+    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></i></a></li>
+    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.github.com/"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></i></a></li>
+
+  </ul>
+
+  <p>Never ending happy ending marketing... be part of the story</p>
+</div>
   </body>
 </html>
