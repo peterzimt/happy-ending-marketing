@@ -11,7 +11,6 @@ title: Welcome to Happy Ending Marketing
 
 </div>
 
-
 <div id="usp" class="bg-blue text-center">
 
 
@@ -32,20 +31,29 @@ title: Welcome to Happy Ending Marketing
           <%= image_tag"money.png" %>
           <h2>Realise your business objective</h2>
           <p>Customer get in touch with you</p>
-
       </div>
-
     </div>
-
-
   </div>
-      
-   
-
-
-
 </div>
 
+
+<div id="testimonials" class:"padded">
+    <div class="container text-center">
+        <div class="row">
+        <% data.testimonials.each do |testimonial| %>
+             <div class="col-xs-12 col-sm-6">
+                    <div class="testimonial">
+                         <%= image_tag testimonial.photo_url, class:"img-circle" %>
+                        <h3> <%= testimonial.name %> </h3>
+                        <p> <%= testimonial.comment %> </p>
+                        
+                    </div>
+             </div>
+             <% end %>
+        </div>
+    </div>
+</div>
+    
 
 <div id="newsletter" class="text-center">
   
