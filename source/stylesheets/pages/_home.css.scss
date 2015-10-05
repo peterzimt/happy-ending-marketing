@@ -2,14 +2,26 @@
 
 #banner {
   background-image: image-url("banner.jpeg");
-  padding: 150px 50px;
+  padding: 100px 50px;
   color:$yellow;
   h1 {
   font-size:90px;
-  letter-spacing: -13px;
+  letter-spacing: -12px;
   Font-family:$Interstate-R;
+  }
 }
+
+.chevron {
+  i {
+  position: relative;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  top: 60px;
+  color: $green;
+  }
 }
+
 
 #usp {
 	h2{
@@ -20,14 +32,14 @@
 
 .bg-blue {
   background-color: $yellow;
-  padding: 150px 50px;
+  padding: 100px 50px;
   h2{
   Font-family:$Interstate-R;
   }
 }
 
 #newsletter {
-  padding: 100px 0px;
+  padding: 80px 0px;
 } 
 
 .testimonial {
@@ -35,7 +47,7 @@
   padding: 40px;
   margin: 10px;
   box-shadow: 1px 1px 3px rgb(206, 204, 204);
-
+ 
   img {
   width: 160px;
   height:160px;
