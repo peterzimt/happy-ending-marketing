@@ -9246,6 +9246,11 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/*
+==============================================
+appearIn
+==============================================
+*/
 @keyframes appearIn {
   0% {
     opacity: 0; }
@@ -9267,13 +9272,18 @@ button.close {
     opacity: 0.5; }
   100% {
     opacity: 1; } }
-/* line 47, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
+/* line 54, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
 .appearIn {
   opacity: 0;
   animation: appearIn 2s 0.5s ease forwards;
   -webkit-animation: appearIn 2s 0.5s ease forwards;
   -moz-animation: appearIn 2s 0.5s ease forwards; }
 
+/*
+==============================================
+bump
+==============================================
+*/
 @keyframes bump {
   0% {
     font-size: 20px; }
@@ -9295,11 +9305,11 @@ button.close {
     font-size: 30px; }
   100% {
     font-size: 20px; } }
-/* line 92, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
+/* line 103, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
 .bump {
   font-size: 20px; }
 
-/* line 95, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
+/* line 106, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
 .bump:hover {
   animation: bump 0.5s 0s ease forwards;
   -webkit-animation: bump 0.5s 0s ease forwards;
