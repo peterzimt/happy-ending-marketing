@@ -9463,6 +9463,18 @@ button.close {
 #newsletter {
   padding: 100px 0px; }
 
+/* line 33, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+.testimonial {
+  background: white;
+  padding: 40px;
+  margin: 10px;
+  box-shadow: 1px 1px 3px #cecccc; }
+  /* line 39, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+  .testimonial img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
