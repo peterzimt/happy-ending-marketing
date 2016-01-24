@@ -9272,7 +9272,7 @@ appearIn
     opacity: 0.5; }
   100% {
     opacity: 1; } }
-/* line 54, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
+/* line 54, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
 .appearIn {
   opacity: 0;
   animation: appearIn 2s 0.5s ease forwards;
@@ -9305,34 +9305,34 @@ bump
     font-size: 30px; }
   100% {
     font-size: 20px; } }
-/* line 103, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
+/* line 103, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
 .bump {
   font-size: 20px; }
 
-/* line 106, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
+/* line 106, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_animation.css.scss */
 .bump:hover {
   animation: bump 0.5s 0s ease forwards;
   -webkit-animation: bump 0.5s 0s ease forwards;
   -moz-animation: bump 0.5s 0s ease forwards; }
 
-/* line 2, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
+/* line 2, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background-color: #222222;
   color: #eeeeee;
   padding: 50px 50px;
   text-align: right; }
-  /* line 7, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
+  /* line 7, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
   #footer p {
     margin-top: 17px; }
-  /* line 10, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
+  /* line 10, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
   #footer ul {
     margin-top: 10px; }
-  /* line 13, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
+  /* line 13, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
   #footer a {
     color: #FDB631;
     font-size: 30px;
     transition: color 0.5s ease; }
-    /* line 17, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
+    /* line 17, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_footer.css.scss */
     #footer a:hover {
       color: #32B796; }
 
@@ -9351,7 +9351,7 @@ bump
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
-/* line 38, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+/* line 38, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: transparent;
   font-family: "Montserrat", "sans-serif";
@@ -9362,7 +9362,7 @@ bump
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 49, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 49, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
@@ -9377,19 +9377,19 @@ bump
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 65, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 65, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
     color: #FDB631;
     background-color: transparent; }
-  /* line 71, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 71, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px; }
-  /* line 79, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 79, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9399,30 +9399,30 @@ bump
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 88, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+    /* line 88, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 93, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 93, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px;
     padding: 0px; }
-  /* line 98, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 98, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 106, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 112, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 117, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9442,10 +9442,10 @@ bump
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 140, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 143, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
+  /* line 143, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: white;
@@ -9456,42 +9456,42 @@ bump
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 7, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
+/* line 7, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 8em;
   padding-bottom: 8em; }
 
-/* line 11, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
+/* line 11, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
   background: #EE5F5B;
   color: white; }
 
-/* line 15, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
+/* line 15, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: #469AE0;
   color: white; }
 
-/* line 19, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
+/* line 19, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #FDB631;
   color: white; }
 
-/* line 23, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
+/* line 23, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E67E22;
   color: white; }
 
-/* line 27, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
+/* line 27, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 31, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
+/* line 31, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
 
-/* line 9, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/components/_button.css.scss */
+/* line 9, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/components/_button.css.scss */
 .btn-rounded {
   border-radius: 50px;
   padding: 0.6em 1.5em;
@@ -9500,22 +9500,22 @@ bump
   text-decoration: none;
   opacity: 0.3;
   transition: opacity 0.3s ease; }
-  /* line 17, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/components/_button.css.scss */
+  /* line 17, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/components/_button.css.scss */
   .btn-rounded:hover {
     opacity: 0.8; }
 
-/* line 3, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+/* line 3, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
 #banner {
   background-image: url("../images/banner.jpeg");
   padding: 100px 50px;
   color: #FDB631; }
-  /* line 7, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+  /* line 7, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 90px;
     letter-spacing: -12px;
     Font-family: "Interstate-Regular", "Montserrat", "sans-serif"; }
 
-/* line 15, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+/* line 15, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
 .chevron i {
   position: relative;
   font-size: 50px;
@@ -9524,30 +9524,30 @@ bump
   top: 60px;
   color: #32B796; }
 
-/* line 27, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+/* line 27, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
 #usp h2 {
   Font-family: "Interstate-Regular", "Montserrat", "sans-serif";
   font-size: 40px; }
 
-/* line 33, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+/* line 33, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
 .bg-blue {
   background-color: #FDB631;
   padding: 100px 50px; }
-  /* line 36, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+  /* line 36, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
   .bg-blue h2 {
     Font-family: "Interstate-Regular", "Montserrat", "sans-serif"; }
 
-/* line 41, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+/* line 41, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
 #newsletter {
   padding: 80px 0px; }
 
-/* line 45, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+/* line 45, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
 .testimonial {
   background: white;
   padding: 40px;
   margin: 10px;
   box-shadow: 1px 1px 3px #cecccc; }
-  /* line 51, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
+  /* line 51, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/pages/_home.css.scss */
   .testimonial img {
     width: 160px;
     height: 160px;
@@ -9571,7 +9571,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9612,7 +9612,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9653,7 +9653,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9694,7 +9694,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9735,7 +9735,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9788,7 +9788,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9821,7 +9821,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9860,7 +9860,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9897,7 +9897,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9956,7 +9956,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -10004,7 +10004,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -10047,7 +10047,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -10081,7 +10081,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -10109,7 +10109,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -10137,7 +10137,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -10184,7 +10184,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -10231,7 +10231,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -10278,7 +10278,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /Users/pierrecanel/Documents/Code/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /Users/pierrecanel/Documents/Code/myProject/happy-ending-marketing/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;
